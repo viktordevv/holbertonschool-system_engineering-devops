@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This is a script for task 4
+# TCP is life
+# UDP is death
+
+sudo netstat -lp
