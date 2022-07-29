@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# La vaca lola
+for str in {1..10}
+
+do
+str="Best School"
+    echo "$str"
+done

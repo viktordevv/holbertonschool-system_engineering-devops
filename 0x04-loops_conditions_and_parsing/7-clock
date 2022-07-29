@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# La vaca lola 7
+i=0
+h=0
+m=0
+while [ $i -le 779 ]
+do
+    if(( i % 60 == 0 ))
+    then
+      echo "Hour: $h"
+    m=0
+      ((h++))
+    else
+      echo "$m"
+
+    fi
+        ((i++))
+        ((m++))
+done
