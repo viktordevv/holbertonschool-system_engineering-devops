@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # La vaca lola 2
+
 str='Best School'
 i=0
 while ((i < 10))
