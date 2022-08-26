@@ -51,7 +51,7 @@ frontend www-https
 
 backend www-backend
         redirect scheme https if !{ ssl_fc }
-        server 4640-web-01 34.224.30.90:80 check
+        server 4640-web-01 3.92.32.155:80 check
         server 4640-web-02 54.197.191.211::80 check
 
 backend letsencrypt-backend
